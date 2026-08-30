@@ -1,0 +1,4782 @@
+[
+  {
+    "id": "train-0001",
+    "customer": null,
+    "items": [
+      {
+        "description": "socket",
+        "quantity": 2,
+        "attributes": {
+          "brand": "Havells",
+          "issue": "fuse blown"
+        }
+      },
+      {
+        "description": "wiring",
+        "quantity": 3,
+        "attributes": {
+          "brand": "Anchor",
+          "issue": "leaking current"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0002",
+    "customer": null,
+    "items": [
+      {
+        "description": "pant",
+        "quantity": 1,
+        "attributes": {
+          "chest": 40
+        }
+      },
+      {
+        "description": "pajama",
+        "quantity": 40,
+        "attributes": {
+          "chest": 34,
+          "fit": "regular"
+        }
+      },
+      {
+        "description": "blouse",
+        "quantity": 1,
+        "attributes": {
+          "chest": 44,
+          "waist": 38,
+          "fit": "slim"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0003",
+    "customer": "Sarita",
+    "items": [
+      {
+        "description": "rajma",
+        "quantity": 1,
+        "attributes": {
+          "days": 5
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0004",
+    "customer": "Kavita",
+    "items": [
+      {
+        "description": "waistcoat",
+        "quantity": 1,
+        "attributes": {
+          "fabric": "rayon",
+          "chest": 36
+        }
+      }
+    ],
+    "due_date": "2026-09-01",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0005",
+    "customer": "Farida",
+    "items": [
+      {
+        "description": "shirt",
+        "quantity": 3,
+        "attributes": {
+          "chest": 36,
+          "size": "M"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0006",
+    "customer": null,
+    "items": [
+      {
+        "description": "wiring",
+        "quantity": 1,
+        "attributes": {
+          "issue": "slow"
+        }
+      },
+      {
+        "description": "switch board",
+        "quantity": 2,
+        "attributes": {
+          "issue": "leaking current"
+        }
+      }
+    ],
+    "due_date": "2026-10-09",
+    "amount": 300.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0007",
+    "customer": "Rakesh",
+    "items": [
+      {
+        "description": "cake",
+        "quantity": 1,
+        "attributes": {}
+      },
+      {
+        "description": "cheesecake",
+        "quantity": 2,
+        "attributes": {}
+      },
+      {
+        "description": "cake",
+        "quantity": 2,
+        "attributes": {}
+      },
+      {
+        "description": "pastry",
+        "quantity": 2,
+        "attributes": {
+          "flavour": "coffee",
+          "egg_free": true,
+          "shape": "round"
+        }
+      },
+      {
+        "description": "cheesecake",
+        "quantity": 1,
+        "attributes": {}
+      },
+      {
+        "description": "cake",
+        "quantity": 1,
+        "attributes": {
+          "flavour": "vanilla",
+          "weight_kg": 1.5
+        }
+      },
+      {
+        "description": "cake",
+        "quantity": 5,
+        "attributes": {
+          "flavour": "red velvet",
+          "weight_kg": 1.5
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0008",
+    "customer": null,
+    "items": [],
+    "due_date": null,
+    "amount": 1500.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0009",
+    "customer": null,
+    "items": [],
+    "due_date": "2026-09-23",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0010",
+    "customer": null,
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0011",
+    "customer": "Ramesh",
+    "items": [
+      {
+        "description": "pant",
+        "quantity": 1,
+        "attributes": {
+          "length": 40
+        }
+      }
+    ],
+    "due_date": "2026-10-18",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0012",
+    "customer": null,
+    "items": [
+      {
+        "description": "suit",
+        "quantity": 1,
+        "attributes": {
+          "color": "pink",
+          "fabric": "linen"
+        }
+      },
+      {
+        "description": "pant",
+        "quantity": 1,
+        "attributes": {
+          "fit": "slim"
+        }
+      }
+    ],
+    "due_date": "2026-09-18",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0013",
+    "customer": null,
+    "items": [
+      {
+        "description": "pant",
+        "quantity": 3,
+        "attributes": {
+          "chest": 40
+        }
+      }
+    ],
+    "due_date": "2026-10-15",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0014",
+    "customer": "Naveen",
+    "items": [
+      {
+        "description": "pajama",
+        "quantity": 36,
+        "attributes": {
+          "length": 38,
+          "size": "XL"
+        }
+      }
+    ],
+    "due_date": "2026-09-30",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0015",
+    "customer": null,
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0016",
+    "customer": null,
+    "items": [
+      {
+        "description": "doorbell",
+        "quantity": 2,
+        "attributes": {
+          "room": "kitchen"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0017",
+    "customer": null,
+    "items": [
+      {
+        "description": "inverter",
+        "quantity": 1,
+        "attributes": {
+          "room": "hall",
+          "issue": "short circuit"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0018",
+    "customer": null,
+    "items": [
+      {
+        "description": "geyser",
+        "quantity": 1,
+        "attributes": {
+          "issue": "noise",
+          "appliance": "geyser"
+        }
+      }
+    ],
+    "due_date": "2026-09-01",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0019",
+    "customer": "Vikram",
+    "items": [
+      {
+        "description": "sabzi",
+        "quantity": 1,
+        "attributes": {}
+      }
+    ],
+    "due_date": "2026-11-08",
+    "amount": 250.0,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0020",
+    "customer": null,
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0021",
+    "customer": "Neha",
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0022",
+    "customer": null,
+    "items": [],
+    "due_date": "2026-09-09",
+    "amount": 500.0,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0023",
+    "customer": null,
+    "items": [
+      {
+        "description": "geyser",
+        "quantity": 1,
+        "attributes": {
+          "brand": "Orient",
+          "issue": "short circuit",
+          "appliance": "geyser"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0024",
+    "customer": null,
+    "items": [
+      {
+        "description": "cookies",
+        "quantity": 2,
+        "attributes": {
+          "flavour": "black forest",
+          "egg_free": true,
+          "shape": "square"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0025",
+    "customer": "Anil",
+    "items": [],
+    "due_date": "2026-09-03",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0026",
+    "customer": null,
+    "items": [
+      {
+        "description": "ceiling fan",
+        "quantity": 1,
+        "attributes": {
+          "issue": "short circuit",
+          "wattage": 40
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": 300.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0027",
+    "customer": null,
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0028",
+    "customer": "Manoj",
+    "items": [
+      {
+        "description": "tube light",
+        "quantity": 5,
+        "attributes": {
+          "issue": "fuse blown",
+          "wattage": 100,
+          "appliance": "fan"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0029",
+    "customer": null,
+    "items": [
+      {
+        "description": "wiring",
+        "quantity": 1,
+        "attributes": {
+          "issue": "fuse blown"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0030",
+    "customer": "Sunita",
+    "items": [
+      {
+        "description": "blouse",
+        "quantity": 1,
+        "attributes": {
+          "chest": 36,
+          "size": "XXL"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0031",
+    "customer": null,
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0032",
+    "customer": null,
+    "items": [
+      {
+        "description": "birthday cake",
+        "quantity": 2,
+        "attributes": {}
+      },
+      {
+        "description": "cake",
+        "quantity": 2,
+        "attributes": {
+          "weight_kg": 0.5,
+          "tier": 1
+        }
+      }
+    ],
+    "due_date": "2026-09-01",
+    "amount": 650.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0033",
+    "customer": "Rakesh",
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0034",
+    "customer": null,
+    "items": [
+      {
+        "description": "cheesecake",
+        "quantity": 1,
+        "attributes": {}
+      },
+      {
+        "description": "cake",
+        "quantity": 1,
+        "attributes": {
+          "tier": 2,
+          "egg_free": true
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0035",
+    "customer": null,
+    "items": [
+      {
+        "description": "geyser",
+        "quantity": 3,
+        "attributes": {}
+      },
+      {
+        "description": "inverter",
+        "quantity": 2,
+        "attributes": {}
+      },
+      {
+        "description": "geyser",
+        "quantity": 2,
+        "attributes": {
+          "issue": "noise"
+        }
+      },
+      {
+        "description": "inverter",
+        "quantity": 1,
+        "attributes": {
+          "issue": "slow"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0036",
+    "customer": null,
+    "items": [
+      {
+        "description": "geyser",
+        "quantity": 6,
+        "attributes": {
+          "issue": "leaking current"
+        }
+      }
+    ],
+    "due_date": "2026-08-20",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0037",
+    "customer": null,
+    "items": [],
+    "due_date": "2026-09-15",
+    "amount": 1200.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0038",
+    "customer": null,
+    "items": [],
+    "due_date": "2026-10-08",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0039",
+    "customer": null,
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0040",
+    "customer": null,
+    "items": [
+      {
+        "description": "tube light",
+        "quantity": 1,
+        "attributes": {
+          "wattage": 1500
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": 1500.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0041",
+    "customer": null,
+    "items": [
+      {
+        "description": "sabzi",
+        "quantity": 3,
+        "attributes": {
+          "meal": "lunch"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0042",
+    "customer": null,
+    "items": [
+      {
+        "description": "kurta",
+        "quantity": 4,
+        "attributes": {
+          "fabric": "silk"
+        }
+      },
+      {
+        "description": "salwar",
+        "quantity": 1,
+        "attributes": {
+          "waist": 30
+        }
+      }
+    ],
+    "due_date": "2026-08-20",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0043",
+    "customer": null,
+    "items": [
+      {
+        "description": "cookies",
+        "quantity": 1,
+        "attributes": {}
+      },
+      {
+        "description": "pastry",
+        "quantity": 1,
+        "attributes": {
+          "tier": 1
+        }
+      },
+      {
+        "description": "muffin",
+        "quantity": 1,
+        "attributes": {
+          "flavour": "vanilla",
+          "egg_free": true
+        }
+      }
+    ],
+    "due_date": "2026-09-27",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0044",
+    "customer": "Naveen",
+    "items": [],
+    "due_date": "2026-08-23",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0045",
+    "customer": null,
+    "items": [
+      {
+        "description": "wiring",
+        "quantity": 1,
+        "attributes": {
+          "issue": "fuse blown",
+          "wattage": 40
+        }
+      },
+      {
+        "description": "inverter",
+        "quantity": 3,
+        "attributes": {}
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0046",
+    "customer": "Priya",
+    "items": [
+      {
+        "description": "cake",
+        "quantity": 1,
+        "attributes": {
+          "flavour": "pineapple"
+        }
+      },
+      {
+        "description": "birthday cake",
+        "quantity": 1,
+        "attributes": {}
+      },
+      {
+        "description": "cake",
+        "quantity": 1,
+        "attributes": {
+          "flavour": "strawberry",
+          "weight_kg": 1.0
+        }
+      }
+    ],
+    "due_date": "2026-10-07",
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0047",
+    "customer": "Manoj",
+    "items": [
+      {
+        "description": "cookies",
+        "quantity": 4,
+        "attributes": {
+          "tier": 3,
+          "egg_free": true,
+          "shape": "square"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0048",
+    "customer": "Manoj",
+    "items": [],
+    "due_date": "2026-09-19",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0049",
+    "customer": "Vikram",
+    "items": [
+      {
+        "description": "idli",
+        "quantity": 4,
+        "attributes": {
+          "meal": "lunch",
+          "days": 3,
+          "jain": true
+        }
+      },
+      {
+        "description": "rice",
+        "quantity": 2,
+        "attributes": {
+          "meal": "lunch"
+        }
+      }
+    ],
+    "due_date": "2026-09-28",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0050",
+    "customer": null,
+    "items": [],
+    "due_date": "2026-10-06",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0051",
+    "customer": "Vikram",
+    "items": [
+      {
+        "description": "geyser",
+        "quantity": 1,
+        "attributes": {
+          "issue": "noise",
+          "appliance": "geyser"
+        }
+      }
+    ],
+    "due_date": "2026-09-18",
+    "amount": 450.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0052",
+    "customer": "Asha",
+    "items": [
+      {
+        "description": "waistcoat",
+        "quantity": 1,
+        "attributes": {
+          "chest": 40,
+          "waist": 40,
+          "fit": "loose"
+        }
+      }
+    ],
+    "due_date": "2026-10-05",
+    "amount": 500.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0053",
+    "customer": "Kavita",
+    "items": [
+      {
+        "description": "rice",
+        "quantity": 1,
+        "attributes": {
+          "meal": "breakfast",
+          "jain": true
+        }
+      },
+      {
+        "description": "roti",
+        "quantity": 4,
+        "attributes": {
+          "meal": "lunch",
+          "jain": true
+        }
+      },
+      {
+        "description": "idli",
+        "quantity": 1,
+        "attributes": {
+          "meal": "breakfast"
+        }
+      }
+    ],
+    "due_date": "2026-09-19",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0054",
+    "customer": null,
+    "items": [
+      {
+        "description": "birthday cake",
+        "quantity": 2,
+        "attributes": {}
+      },
+      {
+        "description": "cake",
+        "quantity": 2,
+        "attributes": {
+          "flavour": "vanilla"
+        }
+      },
+      {
+        "description": "brownie",
+        "quantity": 2,
+        "attributes": {
+          "flavour": "vanilla",
+          "weight_kg": 1.0,
+          "egg_free": false
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0055",
+    "customer": "Tarun",
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0056",
+    "customer": "Sarita",
+    "items": [
+      {
+        "description": "sabzi",
+        "quantity": 1,
+        "attributes": {
+          "meal": "breakfast"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0057",
+    "customer": null,
+    "items": [
+      {
+        "description": "thali",
+        "quantity": 5,
+        "attributes": {}
+      },
+      {
+        "description": "roti",
+        "quantity": 8,
+        "attributes": {
+          "meal": "breakfast",
+          "days": 13
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0058",
+    "customer": "Kavita",
+    "items": [
+      {
+        "description": "cookies",
+        "quantity": 3,
+        "attributes": {
+          "flavour": "butterscotch",
+          "egg_free": false
+        }
+      },
+      {
+        "description": "cheesecake",
+        "quantity": 2,
+        "attributes": {}
+      },
+      {
+        "description": "cake",
+        "quantity": 2,
+        "attributes": {
+          "flavour": "red velvet",
+          "weight_kg": 3.0
+        }
+      }
+    ],
+    "due_date": "2026-08-22",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0059",
+    "customer": "Ramesh",
+    "items": [
+      {
+        "description": "pajama",
+        "quantity": 40,
+        "attributes": {
+          "chest": 42
+        }
+      }
+    ],
+    "due_date": "2026-08-27",
+    "amount": 650.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0060",
+    "customer": null,
+    "items": [
+      {
+        "description": "doorbell",
+        "quantity": 4,
+        "attributes": {
+          "room": "bedroom",
+          "wattage": 1000
+        }
+      }
+    ],
+    "due_date": "2026-09-03",
+    "amount": 500.0,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0061",
+    "customer": null,
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0062",
+    "customer": "Rakesh",
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0063",
+    "customer": null,
+    "items": [
+      {
+        "description": "doughnut",
+        "quantity": 2,
+        "attributes": {
+          "flavour": "chocolate",
+          "tier": 2
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": 1500.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0064",
+    "customer": null,
+    "items": [
+      {
+        "description": "thali",
+        "quantity": 3,
+        "attributes": {}
+      },
+      {
+        "description": "roti",
+        "quantity": 7,
+        "attributes": {}
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0065",
+    "customer": "Ramesh",
+    "items": [
+      {
+        "description": "pajama",
+        "quantity": 5,
+        "attributes": {
+          "chest": 40,
+          "sleeve": "full"
+        }
+      },
+      {
+        "description": "suit",
+        "quantity": 40,
+        "attributes": {
+          "chest": 42,
+          "length": 48,
+          "size": "S"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0066",
+    "customer": null,
+    "items": [],
+    "due_date": "2026-10-13",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0067",
+    "customer": "Kavita",
+    "items": [
+      {
+        "description": "idli",
+        "quantity": 1,
+        "attributes": {}
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0068",
+    "customer": null,
+    "items": [
+      {
+        "description": "blouse",
+        "quantity": 6,
+        "attributes": {
+          "fabric": "silk",
+          "waist": 32
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0069",
+    "customer": null,
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0070",
+    "customer": "Priya",
+    "items": [
+      {
+        "description": "rice",
+        "quantity": 1,
+        "attributes": {}
+      }
+    ],
+    "due_date": null,
+    "amount": 500.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0071",
+    "customer": null,
+    "items": [
+      {
+        "description": "ceiling fan",
+        "quantity": 1,
+        "attributes": {
+          "issue": "fuse blown"
+        }
+      },
+      {
+        "description": "inverter",
+        "quantity": 6,
+        "attributes": {
+          "brand": "Orient",
+          "issue": "slow",
+          "appliance": "fridge point"
+        }
+      }
+    ],
+    "due_date": "2026-10-18",
+    "amount": 650.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0072",
+    "customer": null,
+    "items": [
+      {
+        "description": "doorbell",
+        "quantity": 2,
+        "attributes": {}
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0073",
+    "customer": "Sunita",
+    "items": [
+      {
+        "description": "brownie",
+        "quantity": 1,
+        "attributes": {
+          "weight_kg": 3.0,
+          "shape": "round"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0074",
+    "customer": "Asha",
+    "items": [
+      {
+        "description": "inverter",
+        "quantity": 3,
+        "attributes": {
+          "wattage": 1000
+        }
+      },
+      {
+        "description": "geyser",
+        "quantity": 1000,
+        "attributes": {
+          "brand": "Anchor",
+          "issue": "fuse blown"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0075",
+    "customer": null,
+    "items": [
+      {
+        "description": "cake",
+        "quantity": 7,
+        "attributes": {
+          "flavour": "vanilla",
+          "weight_kg": 1.0
+        }
+      },
+      {
+        "description": "pastry",
+        "quantity": 2,
+        "attributes": {
+          "flavour": "strawberry"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0076",
+    "customer": "Neha",
+    "items": [
+      {
+        "description": "pajama",
+        "quantity": 3,
+        "attributes": {
+          "chest": 34
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0077",
+    "customer": null,
+    "items": [
+      {
+        "description": "suit",
+        "quantity": 1,
+        "attributes": {
+          "chest": 38,
+          "fit": "slim"
+        }
+      }
+    ],
+    "due_date": "2026-09-28",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0078",
+    "customer": null,
+    "items": [
+      {
+        "description": "idli",
+        "quantity": 2,
+        "attributes": {}
+      }
+    ],
+    "due_date": "2026-09-28",
+    "amount": 300.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0079",
+    "customer": "Sunita",
+    "items": [
+      {
+        "description": "rice",
+        "quantity": 1,
+        "attributes": {}
+      },
+      {
+        "description": "idli",
+        "quantity": 3,
+        "attributes": {}
+      },
+      {
+        "description": "roti",
+        "quantity": 8,
+        "attributes": {
+          "meal": "breakfast",
+          "days": 5
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0080",
+    "customer": "Ramesh",
+    "items": [
+      {
+        "description": "dal",
+        "quantity": 2,
+        "attributes": {
+          "meal": "breakfast"
+        }
+      },
+      {
+        "description": "rajma",
+        "quantity": 2,
+        "attributes": {
+          "days": 2
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0081",
+    "customer": "Asha",
+    "items": [],
+    "due_date": "2026-11-08",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0082",
+    "customer": "Anil",
+    "items": [
+      {
+        "description": "dal",
+        "quantity": 4,
+        "attributes": {}
+      },
+      {
+        "description": "roti",
+        "quantity": 2,
+        "attributes": {
+          "meal": "lunch",
+          "jain": true
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": 500.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0083",
+    "customer": null,
+    "items": [
+      {
+        "description": "geyser",
+        "quantity": 2,
+        "attributes": {
+          "issue": "slow"
+        }
+      },
+      {
+        "description": "wiring",
+        "quantity": 2,
+        "attributes": {
+          "appliance": "fridge point"
+        }
+      }
+    ],
+    "due_date": "2026-09-07",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0084",
+    "customer": null,
+    "items": [
+      {
+        "description": "rice",
+        "quantity": 2,
+        "attributes": {
+          "meal": "dinner"
+        }
+      },
+      {
+        "description": "roti",
+        "quantity": 8,
+        "attributes": {
+          "meal": "dinner",
+          "days": 11
+        }
+      }
+    ],
+    "due_date": "2026-09-14",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0085",
+    "customer": "Vikram",
+    "items": [
+      {
+        "description": "sabzi",
+        "quantity": 1,
+        "attributes": {}
+      },
+      {
+        "description": "sabzi",
+        "quantity": 1,
+        "attributes": {
+          "meal": "dinner"
+        }
+      },
+      {
+        "description": "roti",
+        "quantity": 3,
+        "attributes": {
+          "meal": "breakfast",
+          "days": 9
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0086",
+    "customer": "Sarita",
+    "items": [
+      {
+        "description": "sabzi",
+        "quantity": 1,
+        "attributes": {
+          "meal": "dinner",
+          "jain": true
+        }
+      }
+    ],
+    "due_date": "2026-10-10",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0087",
+    "customer": "Tarun",
+    "items": [],
+    "due_date": "2026-09-21",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0088",
+    "customer": "Ramesh",
+    "items": [
+      {
+        "description": "waistcoat",
+        "quantity": 1,
+        "attributes": {
+          "chest": 38,
+          "fit": "slim"
+        }
+      }
+    ],
+    "due_date": "2026-09-01",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0089",
+    "customer": null,
+    "items": [
+      {
+        "description": "cheesecake",
+        "quantity": 3,
+        "attributes": {}
+      },
+      {
+        "description": "cake",
+        "quantity": 3,
+        "attributes": {
+          "flavour": "chocolate"
+        }
+      }
+    ],
+    "due_date": "2026-08-24",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0090",
+    "customer": null,
+    "items": [
+      {
+        "description": "chole",
+        "quantity": 2,
+        "attributes": {
+          "meal": "lunch"
+        }
+      },
+      {
+        "description": "idli",
+        "quantity": 1,
+        "attributes": {}
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0091",
+    "customer": "Gopal",
+    "items": [
+      {
+        "description": "wiring",
+        "quantity": 1,
+        "attributes": {
+          "room": "bedroom",
+          "issue": "noise"
+        }
+      }
+    ],
+    "due_date": "2026-09-12",
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0092",
+    "customer": null,
+    "items": [
+      {
+        "description": "brownie",
+        "quantity": 1,
+        "attributes": {
+          "tier": 1
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0093",
+    "customer": null,
+    "items": [
+      {
+        "description": "ceiling fan",
+        "quantity": 3,
+        "attributes": {}
+      }
+    ],
+    "due_date": "2026-09-06",
+    "amount": 650.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0094",
+    "customer": null,
+    "items": [
+      {
+        "description": "thali",
+        "quantity": 3,
+        "attributes": {
+          "meal": "breakfast",
+          "days": 10
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0095",
+    "customer": null,
+    "items": [
+      {
+        "description": "wiring",
+        "quantity": 1,
+        "attributes": {
+          "room": "bathroom"
+        }
+      },
+      {
+        "description": "geyser",
+        "quantity": 1,
+        "attributes": {
+          "appliance": "geyser"
+        }
+      }
+    ],
+    "due_date": "2026-08-23",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0096",
+    "customer": null,
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0097",
+    "customer": null,
+    "items": [
+      {
+        "description": "roti",
+        "quantity": 1,
+        "attributes": {
+          "meal": "breakfast",
+          "days": 5
+        }
+      },
+      {
+        "description": "roti",
+        "quantity": 5,
+        "attributes": {
+          "meal": "lunch"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0098",
+    "customer": null,
+    "items": [
+      {
+        "description": "switch board",
+        "quantity": 1,
+        "attributes": {}
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0099",
+    "customer": "Farida",
+    "items": [
+      {
+        "description": "rajma",
+        "quantity": 3,
+        "attributes": {
+          "meal": "breakfast",
+          "days": 9
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0100",
+    "customer": null,
+    "items": [
+      {
+        "description": "blouse",
+        "quantity": 40,
+        "attributes": {
+          "chest": 38
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0101",
+    "customer": null,
+    "items": [],
+    "due_date": "2026-10-10",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0102",
+    "customer": "Manoj",
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0103",
+    "customer": null,
+    "items": [
+      {
+        "description": "pajama",
+        "quantity": 1,
+        "attributes": {
+          "fabric": "linen",
+          "chest": 46,
+          "length": 42,
+          "fit": "slim"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": 1500.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0104",
+    "customer": "Naveen",
+    "items": [
+      {
+        "description": "chole",
+        "quantity": 1,
+        "attributes": {
+          "meal": "lunch"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0105",
+    "customer": "Priya",
+    "items": [
+      {
+        "description": "dal",
+        "quantity": 1,
+        "attributes": {
+          "days": 8
+        }
+      },
+      {
+        "description": "thali",
+        "quantity": 8,
+        "attributes": {}
+      },
+      {
+        "description": "roti",
+        "quantity": 6,
+        "attributes": {
+          "meal": "lunch",
+          "days": 8
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0106",
+    "customer": null,
+    "items": [
+      {
+        "description": "inverter",
+        "quantity": 3,
+        "attributes": {}
+      },
+      {
+        "description": "inverter",
+        "quantity": 1,
+        "attributes": {
+          "room": "bathroom"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": 1500.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0107",
+    "customer": "Naveen",
+    "items": [
+      {
+        "description": "sabzi",
+        "quantity": 1,
+        "attributes": {
+          "meal": "dinner",
+          "jain": true
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0108",
+    "customer": null,
+    "items": [
+      {
+        "description": "suit",
+        "quantity": 2,
+        "attributes": {
+          "fit": "loose"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": 650.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0109",
+    "customer": null,
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0110",
+    "customer": "Sarita",
+    "items": [
+      {
+        "description": "rice",
+        "quantity": 1,
+        "attributes": {
+          "meal": "breakfast"
+        }
+      }
+    ],
+    "due_date": "2026-09-26",
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0111",
+    "customer": "Anil",
+    "items": [
+      {
+        "description": "muffin",
+        "quantity": 1,
+        "attributes": {
+          "flavour": "chocolate",
+          "egg_free": false
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0112",
+    "customer": null,
+    "items": [
+      {
+        "description": "cake",
+        "quantity": 2,
+        "attributes": {}
+      }
+    ],
+    "due_date": "2026-08-30",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0113",
+    "customer": "Tarun",
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0114",
+    "customer": null,
+    "items": [
+      {
+        "description": "pajama",
+        "quantity": 46,
+        "attributes": {
+          "chest": 36,
+          "length": 38,
+          "size": "XL"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0115",
+    "customer": "Priya",
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0116",
+    "customer": "Deepak",
+    "items": [
+      {
+        "description": "cupcake",
+        "quantity": 5,
+        "attributes": {}
+      },
+      {
+        "description": "cake",
+        "quantity": 5,
+        "attributes": {
+          "flavour": "red velvet"
+        }
+      },
+      {
+        "description": "cookies",
+        "quantity": 1,
+        "attributes": {
+          "flavour": "chocolate",
+          "egg_free": false
+        }
+      },
+      {
+        "description": "pastry",
+        "quantity": 1,
+        "attributes": {
+          "egg_free": false
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0117",
+    "customer": "Deepak",
+    "items": [
+      {
+        "description": "salwar",
+        "quantity": 2,
+        "attributes": {
+          "length": 40
+        }
+      },
+      {
+        "description": "pant",
+        "quantity": 2,
+        "attributes": {}
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0118",
+    "customer": null,
+    "items": [
+      {
+        "description": "geyser",
+        "quantity": 3,
+        "attributes": {
+          "wattage": 80,
+          "appliance": "geyser"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0119",
+    "customer": null,
+    "items": [
+      {
+        "description": "thali",
+        "quantity": 1,
+        "attributes": {
+          "meal": "breakfast",
+          "days": 11
+        }
+      },
+      {
+        "description": "idli",
+        "quantity": 1,
+        "attributes": {}
+      }
+    ],
+    "due_date": "2026-09-04",
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0120",
+    "customer": null,
+    "items": [
+      {
+        "description": "pajama",
+        "quantity": 1,
+        "attributes": {
+          "size": "L"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0121",
+    "customer": "Iqbal",
+    "items": [],
+    "due_date": "2026-08-22",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0122",
+    "customer": null,
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0123",
+    "customer": "Kavita",
+    "items": [
+      {
+        "description": "birthday cake",
+        "quantity": 6,
+        "attributes": {}
+      },
+      {
+        "description": "cake",
+        "quantity": 6,
+        "attributes": {
+          "flavour": "chocolate",
+          "weight_kg": 1.5
+        }
+      }
+    ],
+    "due_date": "2026-09-10",
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0124",
+    "customer": "Kavita",
+    "items": [
+      {
+        "description": "idli",
+        "quantity": 4,
+        "attributes": {}
+      },
+      {
+        "description": "roti",
+        "quantity": 7,
+        "attributes": {
+          "meal": "lunch",
+          "days": 5,
+          "jain": true
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0125",
+    "customer": null,
+    "items": [],
+    "due_date": "2026-10-20",
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0126",
+    "customer": null,
+    "items": [],
+    "due_date": "2026-10-08",
+    "amount": 650.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0127",
+    "customer": null,
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0128",
+    "customer": "Tarun",
+    "items": [],
+    "due_date": "2026-10-21",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0129",
+    "customer": null,
+    "items": [
+      {
+        "description": "inverter",
+        "quantity": 5,
+        "attributes": {
+          "room": "bedroom",
+          "issue": "leaking current"
+        }
+      },
+      {
+        "description": "geyser",
+        "quantity": 1,
+        "attributes": {
+          "appliance": "geyser"
+        }
+      }
+    ],
+    "due_date": "2026-09-22",
+    "amount": 200.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0130",
+    "customer": null,
+    "items": [],
+    "due_date": "2026-09-25",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0131",
+    "customer": null,
+    "items": [
+      {
+        "description": "roti",
+        "quantity": 7,
+        "attributes": {
+          "meal": "dinner"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0132",
+    "customer": null,
+    "items": [
+      {
+        "description": "doorbell",
+        "quantity": 4,
+        "attributes": {
+          "issue": "noise",
+          "appliance": "ac"
+        }
+      }
+    ],
+    "due_date": "2026-09-17",
+    "amount": 450.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0133",
+    "customer": null,
+    "items": [
+      {
+        "description": "wiring",
+        "quantity": 1,
+        "attributes": {
+          "issue": "noise"
+        }
+      },
+      {
+        "description": "doorbell",
+        "quantity": 2,
+        "attributes": {
+          "issue": "slow"
+        }
+      }
+    ],
+    "due_date": "2026-10-17",
+    "amount": 650.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0134",
+    "customer": null,
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0135",
+    "customer": null,
+    "items": [
+      {
+        "description": "muffin",
+        "quantity": 5,
+        "attributes": {}
+      },
+      {
+        "description": "cake",
+        "quantity": 5,
+        "attributes": {
+          "tier": 1
+        }
+      }
+    ],
+    "due_date": "2026-09-05",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0136",
+    "customer": null,
+    "items": [],
+    "due_date": "2026-09-18",
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0137",
+    "customer": null,
+    "items": [],
+    "due_date": "2026-08-24",
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0138",
+    "customer": "Deepak",
+    "items": [
+      {
+        "description": "birthday cake",
+        "quantity": 3,
+        "attributes": {}
+      },
+      {
+        "description": "cake",
+        "quantity": 1,
+        "attributes": {}
+      }
+    ],
+    "due_date": null,
+    "amount": 200.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0139",
+    "customer": null,
+    "items": [
+      {
+        "description": "dal",
+        "quantity": 2,
+        "attributes": {}
+      },
+      {
+        "description": "roti",
+        "quantity": 8,
+        "attributes": {
+          "meal": "breakfast"
+        }
+      }
+    ],
+    "due_date": "2026-08-26",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0140",
+    "customer": null,
+    "items": [
+      {
+        "description": "wiring",
+        "quantity": 1,
+        "attributes": {
+          "wattage": 80
+        }
+      },
+      {
+        "description": "socket",
+        "quantity": 5,
+        "attributes": {
+          "issue": "spark",
+          "wattage": 1000,
+          "appliance": "ac"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0141",
+    "customer": null,
+    "items": [
+      {
+        "description": "brownie",
+        "quantity": 1,
+        "attributes": {}
+      },
+      {
+        "description": "cheesecake",
+        "quantity": 1,
+        "attributes": {}
+      },
+      {
+        "description": "cake",
+        "quantity": 1,
+        "attributes": {}
+      }
+    ],
+    "due_date": "2026-08-31",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0142",
+    "customer": "Gopal",
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0143",
+    "customer": "Rakesh",
+    "items": [],
+    "due_date": null,
+    "amount": 1200.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0144",
+    "customer": null,
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0145",
+    "customer": "Anil",
+    "items": [
+      {
+        "description": "pastry",
+        "quantity": 1,
+        "attributes": {
+          "flavour": "butterscotch",
+          "tier": 3
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0146",
+    "customer": null,
+    "items": [
+      {
+        "description": "doorbell",
+        "quantity": 2,
+        "attributes": {
+          "brand": "Orient",
+          "appliance": "fan"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0147",
+    "customer": "Kavita",
+    "items": [
+      {
+        "description": "dal",
+        "quantity": 3,
+        "attributes": {
+          "meal": "breakfast"
+        }
+      },
+      {
+        "description": "rajma",
+        "quantity": 1,
+        "attributes": {
+          "days": 6
+        }
+      },
+      {
+        "description": "roti",
+        "quantity": 2,
+        "attributes": {
+          "meal": "breakfast",
+          "jain": true
+        }
+      },
+      {
+        "description": "rice",
+        "quantity": 1,
+        "attributes": {}
+      },
+      {
+        "description": "roti",
+        "quantity": 7,
+        "attributes": {
+          "meal": "dinner"
+        }
+      }
+    ],
+    "due_date": "2026-10-11",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0148",
+    "customer": "Manoj",
+    "items": [
+      {
+        "description": "kurta",
+        "quantity": 1,
+        "attributes": {
+          "chest": 46,
+          "size": "S"
+        }
+      }
+    ],
+    "due_date": "2026-08-25",
+    "amount": 450.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0149",
+    "customer": "Kavita",
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0150",
+    "customer": null,
+    "items": [
+      {
+        "description": "pastry",
+        "quantity": 3,
+        "attributes": {
+          "flavour": "red velvet",
+          "weight_kg": 1.0,
+          "egg_free": false
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0151",
+    "customer": null,
+    "items": [
+      {
+        "description": "brownie",
+        "quantity": 1,
+        "attributes": {}
+      },
+      {
+        "description": "muffin",
+        "quantity": 2,
+        "attributes": {
+          "flavour": "chocolate",
+          "weight_kg": 3.0
+        }
+      }
+    ],
+    "due_date": "2026-09-29",
+    "amount": 650.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0152",
+    "customer": "Iqbal",
+    "items": [
+      {
+        "description": "ceiling fan",
+        "quantity": 1,
+        "attributes": {
+          "room": "kitchen"
+        }
+      },
+      {
+        "description": "tube light",
+        "quantity": 3,
+        "attributes": {
+          "issue": "spark",
+          "wattage": 1000
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0153",
+    "customer": "Manoj",
+    "items": [
+      {
+        "description": "suit",
+        "quantity": 2,
+        "attributes": {
+          "fabric": "linen",
+          "chest": 46,
+          "length": 46
+        }
+      }
+    ],
+    "due_date": "2026-09-15",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0154",
+    "customer": "Priya",
+    "items": [
+      {
+        "description": "cake",
+        "quantity": 1,
+        "attributes": {
+          "flavour": "red velvet",
+          "tier": 2
+        }
+      }
+    ],
+    "due_date": "2026-10-09",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0155",
+    "customer": null,
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0156",
+    "customer": null,
+    "items": [
+      {
+        "description": "geyser",
+        "quantity": 3,
+        "attributes": {
+          "issue": "noise",
+          "wattage": 60
+        }
+      },
+      {
+        "description": "inverter",
+        "quantity": 1,
+        "attributes": {
+          "appliance": "fridge point"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0157",
+    "customer": "Deepak",
+    "items": [
+      {
+        "description": "kurta",
+        "quantity": 6,
+        "attributes": {
+          "chest": 42
+        }
+      }
+    ],
+    "due_date": "2026-09-22",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0158",
+    "customer": null,
+    "items": [],
+    "due_date": "2026-08-24",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0159",
+    "customer": "Kavita",
+    "items": [
+      {
+        "description": "wiring",
+        "quantity": 3,
+        "attributes": {
+          "issue": "leaking current",
+          "appliance": "ac"
+        }
+      },
+      {
+        "description": "doorbell",
+        "quantity": 2,
+        "attributes": {
+          "issue": "leaking current"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0160",
+    "customer": null,
+    "items": [
+      {
+        "description": "brownie",
+        "quantity": 2,
+        "attributes": {
+          "tier": 2
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0161",
+    "customer": null,
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0162",
+    "customer": null,
+    "items": [
+      {
+        "description": "cupcake",
+        "quantity": 3,
+        "attributes": {}
+      },
+      {
+        "description": "cake",
+        "quantity": 3,
+        "attributes": {
+          "flavour": "red velvet",
+          "weight_kg": 1.0,
+          "egg_free": true
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": 250.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0163",
+    "customer": "Manoj",
+    "items": [],
+    "due_date": "2026-10-01",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0164",
+    "customer": null,
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0165",
+    "customer": "Sunita",
+    "items": [
+      {
+        "description": "idli",
+        "quantity": 1,
+        "attributes": {}
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0166",
+    "customer": "Shalini",
+    "items": [
+      {
+        "description": "kurta",
+        "quantity": 1,
+        "attributes": {
+          "size": "S"
+        }
+      }
+    ],
+    "due_date": "2026-08-19",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0167",
+    "customer": "Kavita",
+    "items": [
+      {
+        "description": "rice",
+        "quantity": 1,
+        "attributes": {}
+      },
+      {
+        "description": "idli",
+        "quantity": 2,
+        "attributes": {}
+      },
+      {
+        "description": "rice",
+        "quantity": 2,
+        "attributes": {
+          "jain": true
+        }
+      },
+      {
+        "description": "roti",
+        "quantity": 7,
+        "attributes": {
+          "meal": "lunch"
+        }
+      }
+    ],
+    "due_date": "2026-09-17",
+    "amount": 800.0,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0168",
+    "customer": null,
+    "items": [
+      {
+        "description": "cupcake",
+        "quantity": 1,
+        "attributes": {}
+      },
+      {
+        "description": "cake",
+        "quantity": 1,
+        "attributes": {}
+      },
+      {
+        "description": "doughnut",
+        "quantity": 1,
+        "attributes": {
+          "egg_free": true
+        }
+      },
+      {
+        "description": "cupcake",
+        "quantity": 1,
+        "attributes": {}
+      },
+      {
+        "description": "cake",
+        "quantity": 1,
+        "attributes": {
+          "weight_kg": 1.0
+        }
+      },
+      {
+        "description": "doughnut",
+        "quantity": 1,
+        "attributes": {
+          "flavour": "red velvet",
+          "weight_kg": 0.5,
+          "shape": "square"
+        }
+      }
+    ],
+    "due_date": "2026-09-19",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0169",
+    "customer": null,
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0170",
+    "customer": null,
+    "items": [],
+    "due_date": "2026-08-23",
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0171",
+    "customer": "Naveen",
+    "items": [
+      {
+        "description": "salwar",
+        "quantity": 3,
+        "attributes": {
+          "chest": 42
+        }
+      }
+    ],
+    "due_date": "2026-10-01",
+    "amount": 200.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0172",
+    "customer": null,
+    "items": [
+      {
+        "description": "birthday cake",
+        "quantity": 3,
+        "attributes": {}
+      },
+      {
+        "description": "cake",
+        "quantity": 3,
+        "attributes": {
+          "flavour": "red velvet",
+          "weight_kg": 1.5,
+          "tier": 1
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0173",
+    "customer": null,
+    "items": [],
+    "due_date": "2026-09-06",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0174",
+    "customer": null,
+    "items": [
+      {
+        "description": "cookies",
+        "quantity": 1,
+        "attributes": {}
+      },
+      {
+        "description": "muffin",
+        "quantity": 1,
+        "attributes": {
+          "flavour": "chocolate",
+          "weight_kg": 0.5,
+          "tier": 3,
+          "shape": "square"
+        }
+      },
+      {
+        "description": "doughnut",
+        "quantity": 3,
+        "attributes": {
+          "flavour": "chocolate",
+          "tier": 2
+        }
+      }
+    ],
+    "due_date": "2026-08-25",
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0175",
+    "customer": "Vikram",
+    "items": [
+      {
+        "description": "doughnut",
+        "quantity": 1,
+        "attributes": {
+          "tier": 3,
+          "egg_free": false
+        }
+      }
+    ],
+    "due_date": "2026-09-13",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0176",
+    "customer": "Naveen",
+    "items": [
+      {
+        "description": "doughnut",
+        "quantity": 3,
+        "attributes": {
+          "flavour": "vanilla",
+          "egg_free": true,
+          "shape": "round"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0177",
+    "customer": null,
+    "items": [
+      {
+        "description": "switch board",
+        "quantity": 1,
+        "attributes": {
+          "wattage": 80
+        }
+      }
+    ],
+    "due_date": "2026-09-15",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0178",
+    "customer": "Tarun",
+    "items": [
+      {
+        "description": "pant",
+        "quantity": 1,
+        "attributes": {
+          "chest": 46
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0179",
+    "customer": "Shalini",
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0180",
+    "customer": null,
+    "items": [
+      {
+        "description": "wiring",
+        "quantity": 3,
+        "attributes": {
+          "room": "bathroom"
+        }
+      }
+    ],
+    "due_date": "2026-08-25",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0181",
+    "customer": null,
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0182",
+    "customer": null,
+    "items": [
+      {
+        "description": "roti",
+        "quantity": 2,
+        "attributes": {
+          "meal": "breakfast"
+        }
+      },
+      {
+        "description": "rajma",
+        "quantity": 1,
+        "attributes": {
+          "meal": "dinner",
+          "days": 6
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0183",
+    "customer": null,
+    "items": [
+      {
+        "description": "salwar",
+        "quantity": 1,
+        "attributes": {
+          "chest": 40,
+          "length": 42
+        }
+      }
+    ],
+    "due_date": "2026-09-16",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0184",
+    "customer": "Iqbal",
+    "items": [
+      {
+        "description": "thali",
+        "quantity": 1,
+        "attributes": {
+          "meal": "lunch"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0185",
+    "customer": null,
+    "items": [
+      {
+        "description": "pant",
+        "quantity": 3,
+        "attributes": {}
+      }
+    ],
+    "due_date": "2026-10-14",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0186",
+    "customer": null,
+    "items": [
+      {
+        "description": "thali",
+        "quantity": 1,
+        "attributes": {
+          "meal": "breakfast"
+        }
+      }
+    ],
+    "due_date": "2026-09-11",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0187",
+    "customer": null,
+    "items": [],
+    "due_date": "2026-09-15",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0188",
+    "customer": null,
+    "items": [
+      {
+        "description": "cheesecake",
+        "quantity": 2,
+        "attributes": {}
+      },
+      {
+        "description": "cake",
+        "quantity": 2,
+        "attributes": {
+          "flavour": "pineapple",
+          "shape": "square"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0189",
+    "customer": null,
+    "items": [
+      {
+        "description": "inverter",
+        "quantity": 1,
+        "attributes": {}
+      },
+      {
+        "description": "geyser",
+        "quantity": 2,
+        "attributes": {
+          "wattage": 80,
+          "appliance": "geyser"
+        }
+      }
+    ],
+    "due_date": "2026-09-21",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0190",
+    "customer": null,
+    "items": [
+      {
+        "description": "idli",
+        "quantity": 4,
+        "attributes": {
+          "meal": "dinner"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0191",
+    "customer": "Sunita",
+    "items": [
+      {
+        "description": "doughnut",
+        "quantity": 1,
+        "attributes": {}
+      },
+      {
+        "description": "cookies",
+        "quantity": 2,
+        "attributes": {}
+      },
+      {
+        "description": "doughnut",
+        "quantity": 2,
+        "attributes": {
+          "flavour": "butterscotch",
+          "weight_kg": 2.0
+        }
+      },
+      {
+        "description": "cookies",
+        "quantity": 2,
+        "attributes": {
+          "weight_kg": 2.0
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0192",
+    "customer": null,
+    "items": [],
+    "due_date": "2026-10-17",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0193",
+    "customer": "Gopal",
+    "items": [
+      {
+        "description": "salwar",
+        "quantity": 34,
+        "attributes": {
+          "fabric": "silk",
+          "size": "L"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0194",
+    "customer": null,
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0195",
+    "customer": null,
+    "items": [
+      {
+        "description": "cookies",
+        "quantity": 1,
+        "attributes": {}
+      },
+      {
+        "description": "doughnut",
+        "quantity": 1,
+        "attributes": {}
+      },
+      {
+        "description": "cookies",
+        "quantity": 1,
+        "attributes": {
+          "flavour": "red velvet",
+          "egg_free": true
+        }
+      },
+      {
+        "description": "doughnut",
+        "quantity": 1,
+        "attributes": {
+          "flavour": "pineapple",
+          "egg_free": true
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0196",
+    "customer": null,
+    "items": [
+      {
+        "description": "switch board",
+        "quantity": 2,
+        "attributes": {}
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0197",
+    "customer": null,
+    "items": [
+      {
+        "description": "kurta",
+        "quantity": 3,
+        "attributes": {
+          "chest": 44
+        }
+      }
+    ],
+    "due_date": "2026-10-04",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0198",
+    "customer": "Farida",
+    "items": [],
+    "due_date": "2026-10-10",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0199",
+    "customer": null,
+    "items": [
+      {
+        "description": "roti",
+        "quantity": 4,
+        "attributes": {
+          "meal": "lunch"
+        }
+      },
+      {
+        "description": "dal",
+        "quantity": 2,
+        "attributes": {}
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0200",
+    "customer": null,
+    "items": [
+      {
+        "description": "pant",
+        "quantity": 6,
+        "attributes": {
+          "chest": 46,
+          "length": 40
+        }
+      }
+    ],
+    "due_date": "2026-09-19",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0201",
+    "customer": "Priya",
+    "items": [
+      {
+        "description": "rajma",
+        "quantity": 1,
+        "attributes": {
+          "meal": "dinner",
+          "days": 7
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0202",
+    "customer": null,
+    "items": [
+      {
+        "description": "roti",
+        "quantity": 5,
+        "attributes": {
+          "meal": "breakfast",
+          "days": 3
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0203",
+    "customer": null,
+    "items": [
+      {
+        "description": "cookies",
+        "quantity": 1,
+        "attributes": {
+          "flavour": "vanilla",
+          "tier": 2
+        }
+      }
+    ],
+    "due_date": "2026-08-27",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0204",
+    "customer": null,
+    "items": [
+      {
+        "description": "birthday cake",
+        "quantity": 1,
+        "attributes": {}
+      },
+      {
+        "description": "cake",
+        "quantity": 1,
+        "attributes": {
+          "flavour": "butterscotch"
+        }
+      },
+      {
+        "description": "cupcake",
+        "quantity": 5,
+        "attributes": {}
+      },
+      {
+        "description": "cake",
+        "quantity": 5,
+        "attributes": {}
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0205",
+    "customer": "Naveen",
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0206",
+    "customer": null,
+    "items": [
+      {
+        "description": "tube light",
+        "quantity": 1,
+        "attributes": {}
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0207",
+    "customer": "Shalini",
+    "items": [
+      {
+        "description": "dal",
+        "quantity": 4,
+        "attributes": {
+          "days": 8
+        }
+      },
+      {
+        "description": "roti",
+        "quantity": 7,
+        "attributes": {
+          "meal": "dinner"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0208",
+    "customer": "Shalini",
+    "items": [
+      {
+        "description": "suit",
+        "quantity": 4,
+        "attributes": {}
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0209",
+    "customer": "Priya",
+    "items": [
+      {
+        "description": "tube light",
+        "quantity": 1,
+        "attributes": {
+          "brand": "Anchor",
+          "room": "bathroom",
+          "issue": "slow"
+        }
+      }
+    ],
+    "due_date": "2026-09-04",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0210",
+    "customer": "Rakesh",
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0211",
+    "customer": "Neha",
+    "items": [
+      {
+        "description": "cheesecake",
+        "quantity": 2,
+        "attributes": {}
+      },
+      {
+        "description": "cake",
+        "quantity": 2,
+        "attributes": {
+          "flavour": "red velvet",
+          "weight_kg": 0.5,
+          "tier": 1
+        }
+      }
+    ],
+    "due_date": "2026-09-18",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0212",
+    "customer": "Naveen",
+    "items": [
+      {
+        "description": "sabzi",
+        "quantity": 2,
+        "attributes": {
+          "meal": "dinner"
+        }
+      },
+      {
+        "description": "thali",
+        "quantity": 4,
+        "attributes": {
+          "meal": "lunch"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": 650.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0213",
+    "customer": "Kavita",
+    "items": [
+      {
+        "description": "thali",
+        "quantity": 2,
+        "attributes": {
+          "days": 5,
+          "jain": true
+        }
+      },
+      {
+        "description": "roti",
+        "quantity": 6,
+        "attributes": {
+          "meal": "lunch"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": 800.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0214",
+    "customer": "Ramesh",
+    "items": [
+      {
+        "description": "doorbell",
+        "quantity": 1,
+        "attributes": {}
+      }
+    ],
+    "due_date": "2026-08-18",
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0215",
+    "customer": null,
+    "items": [
+      {
+        "description": "birthday cake",
+        "quantity": 5,
+        "attributes": {}
+      },
+      {
+        "description": "cake",
+        "quantity": 5,
+        "attributes": {
+          "flavour": "vanilla",
+          "egg_free": false
+        }
+      }
+    ],
+    "due_date": "2026-09-17",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0216",
+    "customer": null,
+    "items": [
+      {
+        "description": "salwar",
+        "quantity": 1,
+        "attributes": {
+          "chest": 40,
+          "waist": 36,
+          "size": "L"
+        }
+      },
+      {
+        "description": "pant",
+        "quantity": 40,
+        "attributes": {
+          "color": "white",
+          "chest": 34
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": 800.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0217",
+    "customer": null,
+    "items": [
+      {
+        "description": "pant",
+        "quantity": 38,
+        "attributes": {}
+      },
+      {
+        "description": "suit",
+        "quantity": 4,
+        "attributes": {
+          "chest": 34,
+          "size": "XL"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0218",
+    "customer": "Tarun",
+    "items": [
+      {
+        "description": "ceiling fan",
+        "quantity": 4,
+        "attributes": {
+          "brand": "Orient"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": 650.0,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0219",
+    "customer": null,
+    "items": [
+      {
+        "description": "geyser",
+        "quantity": 1,
+        "attributes": {
+          "room": "bedroom",
+          "appliance": "fridge point"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0220",
+    "customer": "Shalini",
+    "items": [
+      {
+        "description": "birthday cake",
+        "quantity": 5,
+        "attributes": {}
+      },
+      {
+        "description": "cake",
+        "quantity": 5,
+        "attributes": {}
+      }
+    ],
+    "due_date": null,
+    "amount": 500.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0221",
+    "customer": "Priya",
+    "items": [
+      {
+        "description": "birthday cake",
+        "quantity": 2,
+        "attributes": {}
+      },
+      {
+        "description": "cake",
+        "quantity": 2,
+        "attributes": {
+          "shape": "square"
+        }
+      }
+    ],
+    "due_date": "2026-10-17",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0222",
+    "customer": null,
+    "items": [
+      {
+        "description": "suit",
+        "quantity": 1,
+        "attributes": {
+          "chest": 44,
+          "waist": 32,
+          "length": 44
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0223",
+    "customer": null,
+    "items": [
+      {
+        "description": "switch board",
+        "quantity": 1,
+        "attributes": {
+          "brand": "Orient",
+          "room": "bathroom",
+          "issue": "short circuit",
+          "appliance": "fridge point"
+        }
+      },
+      {
+        "description": "tube light",
+        "quantity": 1,
+        "attributes": {
+          "room": "bathroom",
+          "issue": "slow",
+          "wattage": 80
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0224",
+    "customer": null,
+    "items": [
+      {
+        "description": "cheesecake",
+        "quantity": 1,
+        "attributes": {}
+      },
+      {
+        "description": "cake",
+        "quantity": 1,
+        "attributes": {
+          "shape": "round"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0225",
+    "customer": null,
+    "items": [
+      {
+        "description": "cookies",
+        "quantity": 1,
+        "attributes": {
+          "tier": 3
+        }
+      }
+    ],
+    "due_date": "2026-09-25",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0226",
+    "customer": "Naveen",
+    "items": [
+      {
+        "description": "kurta",
+        "quantity": 3,
+        "attributes": {
+          "chest": 38
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0227",
+    "customer": "Sunita",
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0228",
+    "customer": "Deepak",
+    "items": [
+      {
+        "description": "muffin",
+        "quantity": 2,
+        "attributes": {
+          "flavour": "strawberry"
+        }
+      }
+    ],
+    "due_date": "2026-09-04",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0229",
+    "customer": "Naveen",
+    "items": [
+      {
+        "description": "birthday cake",
+        "quantity": 1,
+        "attributes": {}
+      },
+      {
+        "description": "cake",
+        "quantity": 1,
+        "attributes": {
+          "flavour": "strawberry",
+          "tier": 1
+        }
+      }
+    ],
+    "due_date": "2026-08-31",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0230",
+    "customer": null,
+    "items": [
+      {
+        "description": "idli",
+        "quantity": 1,
+        "attributes": {}
+      },
+      {
+        "description": "thali",
+        "quantity": 5,
+        "attributes": {
+          "meal": "breakfast",
+          "days": 4
+        }
+      },
+      {
+        "description": "thali",
+        "quantity": 1,
+        "attributes": {}
+      },
+      {
+        "description": "roti",
+        "quantity": 4,
+        "attributes": {}
+      }
+    ],
+    "due_date": "2026-08-24",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0231",
+    "customer": null,
+    "items": [
+      {
+        "description": "geyser",
+        "quantity": 3,
+        "attributes": {
+          "issue": "leaking current",
+          "appliance": "geyser"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": 200.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0232",
+    "customer": "Rakesh",
+    "items": [
+      {
+        "description": "chole",
+        "quantity": 1,
+        "attributes": {
+          "jain": true
+        }
+      },
+      {
+        "description": "roti",
+        "quantity": 8,
+        "attributes": {}
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0233",
+    "customer": null,
+    "items": [
+      {
+        "description": "roti",
+        "quantity": 4,
+        "attributes": {
+          "meal": "dinner"
+        }
+      }
+    ],
+    "due_date": "2026-09-06",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0234",
+    "customer": null,
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0235",
+    "customer": null,
+    "items": [
+      {
+        "description": "pajama",
+        "quantity": 34,
+        "attributes": {
+          "chest": 42
+        }
+      },
+      {
+        "description": "suit",
+        "quantity": 42,
+        "attributes": {
+          "chest": 42
+        }
+      }
+    ],
+    "due_date": "2026-09-09",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0236",
+    "customer": null,
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0237",
+    "customer": null,
+    "items": [],
+    "due_date": "2026-08-25",
+    "amount": 1200.0,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0238",
+    "customer": null,
+    "items": [
+      {
+        "description": "waistcoat",
+        "quantity": 3,
+        "attributes": {
+          "chest": 42,
+          "size": "XL"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0239",
+    "customer": "Deepak",
+    "items": [
+      {
+        "description": "pastry",
+        "quantity": 4,
+        "attributes": {
+          "flavour": "pineapple",
+          "tier": 1,
+          "egg_free": false
+        }
+      }
+    ],
+    "due_date": "2026-08-31",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0240",
+    "customer": null,
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0241",
+    "customer": "Sunita",
+    "items": [
+      {
+        "description": "thali",
+        "quantity": 2,
+        "attributes": {}
+      }
+    ],
+    "due_date": "2026-09-04",
+    "amount": null,
+    "references_prior_order": true,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0242",
+    "customer": "Shalini",
+    "items": [
+      {
+        "description": "cheesecake",
+        "quantity": 1,
+        "attributes": {}
+      },
+      {
+        "description": "cake",
+        "quantity": 1,
+        "attributes": {}
+      },
+      {
+        "description": "cookies",
+        "quantity": 1,
+        "attributes": {
+          "tier": 3,
+          "shape": "square"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0243",
+    "customer": "Rakesh",
+    "items": [],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0244",
+    "customer": "Asha",
+    "items": [
+      {
+        "description": "wiring",
+        "quantity": 2,
+        "attributes": {
+          "issue": "noise",
+          "appliance": "ac"
+        }
+      }
+    ],
+    "due_date": "2026-09-13",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0245",
+    "customer": null,
+    "items": [
+      {
+        "description": "roti",
+        "quantity": 4,
+        "attributes": {
+          "meal": "breakfast",
+          "days": 6
+        }
+      }
+    ],
+    "due_date": "2026-09-03",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0246",
+    "customer": null,
+    "items": [
+      {
+        "description": "rajma",
+        "quantity": 2,
+        "attributes": {
+          "meal": "lunch"
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0247",
+    "customer": null,
+    "items": [
+      {
+        "description": "switch board",
+        "quantity": 1,
+        "attributes": {
+          "brand": "Orient",
+          "issue": "leaking current"
+        }
+      }
+    ],
+    "due_date": "2026-08-24",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0248",
+    "customer": "Deepak",
+    "items": [
+      {
+        "description": "switch board",
+        "quantity": 1,
+        "attributes": {
+          "brand": "Havells",
+          "room": "kitchen"
+        }
+      }
+    ],
+    "due_date": "2026-09-27",
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": true
+  },
+  {
+    "id": "train-0249",
+    "customer": null,
+    "items": [
+      {
+        "description": "brownie",
+        "quantity": 2,
+        "attributes": {
+          "flavour": "red velvet",
+          "egg_free": true
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  },
+  {
+    "id": "train-0250",
+    "customer": null,
+    "items": [
+      {
+        "description": "blouse",
+        "quantity": 42,
+        "attributes": {
+          "color": "pink",
+          "chest": 36,
+          "length": 46
+        }
+      },
+      {
+        "description": "pant",
+        "quantity": 36,
+        "attributes": {
+          "chest": 46
+        }
+      }
+    ],
+    "due_date": null,
+    "amount": null,
+    "references_prior_order": false,
+    "confidence": 0.8,
+    "needs_clarification": false
+  }
+]
